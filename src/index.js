@@ -13,7 +13,6 @@ app.get("/", (req, res) => {
   res.send("¡Bienvenido a mi API REST con TypeORM!");
 });
 
-
 // Inicializa la conexión a la base de datos
 connectDB()
   .then(() => {
